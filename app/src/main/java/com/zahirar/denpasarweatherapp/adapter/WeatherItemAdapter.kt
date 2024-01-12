@@ -20,7 +20,7 @@ class WeatherItemAdapter(val listWeather: ArrayList<WeatherDataClass>): Recycler
     }
 
     override fun onBindViewHolder(holder: WeatherItemAdapter.ViewHolder, position: Int) {
-        holder.binding.tvItemCloud.text = listWeather[position].nameCloud
+        holder.binding.tvItemCloud.text = listWeather[position].weatherdesc
         holder.binding.tvItemTemp.text = listWeather[position].temp
         holder.binding.tvItemPressure.text = listWeather[position].pressure
         holder.binding.tvItemHumidity.text = listWeather[position].humidity
