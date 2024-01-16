@@ -6,7 +6,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.zahirar.denpasarweatherapp.databinding.ItemWeatherBinding
 import com.zahirar.denpasarweatherapp.model.WeatherDataClass
 
-class WeatherItemAdapter(val listWeather: ArrayList<WeatherDataClass>): RecyclerView.Adapter<WeatherItemAdapter.ViewHolder>() {
+class WeatherItemAdapter(val listWeather: List<WeatherDataClass>): RecyclerView.Adapter<WeatherItemAdapter.ViewHolder>() {
 
     var onClick : ((WeatherDataClass) -> Unit)? = null
 

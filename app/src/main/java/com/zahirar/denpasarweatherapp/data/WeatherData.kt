@@ -259,6 +259,5 @@ object WeatherData {
         WeatherDataClass("5 Januari 2020 08:00", "2020", "31 - 31\u2103", "1008hpa", "74%", "57km/h", "Scattered Clouds", R.drawable.ic_scattered_clouds),
         WeatherDataClass("5 Januari 2020 09:00", "2020", "31 - 31\u2103", "1009hpa", "79%", "62km/h", "Scattered Clouds", R.drawable.ic_scattered_clouds),
         WeatherDataClass("5 Januari 2020 10:00", "2020", "30 - 30\u2103", "1009hpa", "84%", "51km/h", "light Rain", R.drawable.ic_lightrain),
-
         )
 }

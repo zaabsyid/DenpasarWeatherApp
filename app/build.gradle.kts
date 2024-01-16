@@ -60,6 +60,8 @@ dependencies {
     //livedata
     implementation ("androidx.lifecycle:lifecycle-livedata-ktx:2.2.0")
 
+    implementation ("com.github.qandeelabbassi:Dropsy:1.1")
+
     implementation ("com.google.dagger:hilt-android:2.42")
     kapt ("com.google.dagger:hilt-android-compiler:2.42")
 }
